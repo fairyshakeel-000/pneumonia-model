@@ -14,7 +14,8 @@ st.write("Upload a chest X-ray image to check if it shows signs of Pneumonia or 
 # ----------------------------------------------------------
 # 🧩 Load Model
 # ----------------------------------------------------------
-MODEL_PATH = "pneumonia_cnn.keras"
+MODEL_PATH = "pneumonia_cnn_fixed.h5"
+
 
 @st.cache_resource
 def load_model():
